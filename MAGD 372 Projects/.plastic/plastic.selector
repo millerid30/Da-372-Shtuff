@@ -1,0 +1,4 @@
+repository "MAGD 372 Projects@BoopusGames@cloud"
+  path "/"
+    br "/main"
+    co "/main"
