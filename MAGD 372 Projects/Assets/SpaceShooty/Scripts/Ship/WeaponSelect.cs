@@ -13,7 +13,10 @@ public class WeaponSelect : MonoBehaviour
     {
         foreach (var weapon in playerShoot)
         {
-            weapon.SetProjectilePrefab();
+            if (weapon.gameObject.activeSelf)
+            {
+                weapon.SetProjectilePrefab();
+            }
         }
     }
 }

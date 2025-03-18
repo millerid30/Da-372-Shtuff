@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|c:\\users\\isaiah\\unity projects\\da-372-shtuff\\magd 372 projects\\assets\\spaceshooty\\scripts\\ship\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|c:\\users\\isaiah\\unity projects\\da-372-shtuff\\magd 372 projects\\assets\\spaceshooty\\scripts\\ship\\shiphealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\shiphealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\assets\\spaceshooty\\scripts\\ship\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\shipselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\assets\\spaceshooty\\scripts\\ship\\shiphealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\shiphealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\assets\\spaceshooty\\scripts\\ship\\shipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\shipmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\assets\\spaceshooty\\scripts\\ship\\scatterprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\scatterprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\assets\\spaceshooty\\scripts\\ship\\bombprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D467EAF7-FF8E-F95F-3D17-7BC395F3CC39}|Assembly-CSharp.csproj|solutionrelative:assets\\spaceshooty\\scripts\\ship\\bombprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,60 +42,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "BombProjectile.cs",
+              "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\BombProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\BombProjectile.cs",
+              "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\BombProjectile.cs",
+              "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\BombProjectile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:16:07.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScatterProjectile.cs",
+              "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ScatterProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\ScatterProjectile.cs",
+              "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ScatterProjectile.cs",
+              "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\ScatterProjectile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:16:03.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Projectile.cs",
               "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\Projectile.cs",
               "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\Projectile.cs",
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\Projectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:59:36.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T08:59:36.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\PlayerShoot.cs",
               "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\PlayerShoot.cs",
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\PlayerShoot.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T09:08:19.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeaponSelect.cs",
               "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\WeaponSelect.cs",
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\WeaponSelect.cs",
               "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\WeaponSelect.cs",
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\WeaponSelect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T08:25:20.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShipSelect.cs",
               "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ShipSelect.cs",
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipSelect.cs",
               "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ShipSelect.cs",
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipSelect.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T06:11:39.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ShipHealth.cs",
               "DocumentMoniker": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ShipHealth.cs",
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipHealth.cs",
@@ -95,7 +130,8 @@
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipHealth.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T04:33:22.169Z"
+              "WhenOpened": "2025-02-26T04:33:22.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,7 +141,7 @@
               "RelativeDocumentMoniker": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipMovement.cs",
               "ToolTip": "C:\\Users\\Isaiah\\Unity Projects\\Da-372-Shtuff\\MAGD 372 Projects\\Assets\\SpaceShooty\\Scripts\\Ship\\ShipMovement.cs",
               "RelativeToolTip": "Assets\\SpaceShooty\\Scripts\\Ship\\ShipMovement.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T04:42:18.186Z"
             }

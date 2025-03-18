@@ -619,6 +619,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6278432987808619699, guid: 055ca939edc25f1458030771f44bab17, type: 3}
+      propertyPath: attackSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6278432987808619699, guid: 055ca939edc25f1458030771f44bab17, type: 3}
       propertyPath: weaponSelect
       value: 
       objectReference: {fileID: 3575336591192823058}
@@ -680,6 +684,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061031746929782739}
     m_Modifications:
+    - target: {fileID: 88908622287033848, guid: 98f07bc61f409944fbd3ddc3bb317267, type: 3}
+      propertyPath: attackSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 88908622287033848, guid: 98f07bc61f409944fbd3ddc3bb317267, type: 3}
       propertyPath: weaponSelect
       value: 
@@ -817,6 +825,10 @@ PrefabInstance:
     - target: {fileID: 2201496377746382421, guid: 224bdfc761dc4f647b471ad79019869e, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3528099485290784202, guid: 224bdfc761dc4f647b471ad79019869e, type: 3}
+      propertyPath: attackSpeed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3528099485290784202, guid: 224bdfc761dc4f647b471ad79019869e, type: 3}
       propertyPath: weaponSelect
@@ -1043,6 +1055,10 @@ PrefabInstance:
     - target: {fileID: 6902786634233712593, guid: 4f92f9d7e224fa441914f9520de32dcb, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639806491824395016, guid: 4f92f9d7e224fa441914f9520de32dcb, type: 3}
+      propertyPath: attackSpeed
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8639806491824395016, guid: 4f92f9d7e224fa441914f9520de32dcb, type: 3}
       propertyPath: weaponSelect
