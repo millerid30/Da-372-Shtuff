@@ -3,23 +3,31 @@ public class ShipSelect : MonoBehaviour
 {
     [SerializeField] private GameObject[] hangar;
     private int shipNum = 0;
-    void Start()
+    void Awake()
     {
-        for (int i = 0; i < hangar.Length; i++)
-        {
-            hangar[i].gameObject.SetActive(false);
-        }
+        SelectShip();
     }
     void Update()
     {
-        if (shipNum >= hangar.Length)
-        {
-            shipNum = 0;
-        }
+        int prevShip = shipNum;
         if (Input.GetKeyDown(KeyCode.T))
         {
-            shipNum++;
+            if (shipNum >= hangar.Length - 1)
+            {
+                shipNum = 0;
+            }
+            else
+            {
+                shipNum++;
+            }
         }
+        if (prevShip != shipNum)
+        {
+            SelectShip();
+        }
+    }
+    private void SelectShip()
+    {
         for (int i = 0; i < hangar.Length; i++)
         {
             if (shipNum == i)
@@ -31,9 +39,5 @@ public class ShipSelect : MonoBehaviour
                 hangar[i].gameObject.SetActive(false);
             }
         }
-    }
-    public int SelectedShip()
-    {
-        return shipNum;
     }
 }

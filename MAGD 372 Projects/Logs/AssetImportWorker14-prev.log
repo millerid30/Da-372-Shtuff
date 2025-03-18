@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 31900 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31900 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -9,13 +9,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker16
+AssetImportWorker14
 -projectPath
 C:/Users/Isaiah/Unity Projects/Da-372-Shtuff/MAGD 372 Projects
 -logFile
-Logs/AssetImportWorker16.log
+Logs/AssetImportWorker14.log
 -srvPort
-52057
+59581
 Successfully changed project path to: C:/Users/Isaiah/Unity Projects/Da-372-Shtuff/MAGD 372 Projects
 C:/Users/Isaiah/Unity Projects/Da-372-Shtuff/MAGD 372 Projects
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Isaiah/Unity Projects/Da-372-Shtuff/MAGD 372 Projects
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [40896]  Target information:
+Player connection [46468]  Target information:
 
-Player connection [40896]  * "[IP] 192.168.1.167 [Port] 0 [Flags] 2 [Guid] 205047300 [EditorId] 205047300 [Version] 1048832 [Id] WindowsEditor(7,idebljmDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [46468]  * "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 621071251 [EditorId] 621071251 [Version] 1048832 [Id] WindowsEditor(7,idebljmDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [40896] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [40896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46468] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [46468] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 13.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -72,35 +72,35 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005711 seconds.
-- Loaded All Assemblies, in  0.217 seconds
+Registered in 0.007084 seconds.
+- Loaded All Assemblies, in  0.209 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.187 seconds
-Domain Reload Profiling: 404ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 394ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (81ms)
-		LoadAssemblies (74ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (61ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (79ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (71ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (187ms)
@@ -108,12 +108,12 @@ Domain Reload Profiling: 404ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (160ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (70ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,369 +123,359 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.465 seconds
+- Loaded All Assemblies, in  0.521 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.582 seconds
-Domain Reload Profiling: 1046ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1158ms
+	BeginReloadAssembly (85ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (336ms)
-		LoadAssemblies (210ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (233ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (582ms)
+	FinalizeReload (640ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
+		SetupLoadedEditorAssemblies (512ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (365ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 192 unused Assets / (13.9 MB). Loaded Objects now: 7746.
-Memory consumption went from 344.4 MB to 330.5 MB.
-Total: 8.846300 ms (FindLiveObjects: 0.859000 ms CreateObjectMapping: 0.459900 ms MarkObjects: 4.011600 ms  DeleteObjects: 3.514400 ms)
+Unloading 7395 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 192 unused Assets / (13.9 MB). Loaded Objects now: 7748.
+Memory consumption went from 344.8 MB to 330.8 MB.
+Total: 9.870800 ms (FindLiveObjects: 0.899400 ms CreateObjectMapping: 0.789800 ms MarkObjects: 4.473100 ms  DeleteObjects: 3.707000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/DestroyerHealth.cs: af2148d38daccb6a6ebc06da04049be4 -> 65a15f30bafbe703e697fb87718d2352
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CruiserHealth.cs: d4396c74acba6e6620f8f0ed1f406c76 -> b805cc496f66499affd34364065b76e2
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/FighterHealth.cs: f49e7b9db47e4bea9d4b57ea31976cbd -> 126baef1d75cab95dd06dc3ec02d89bd
-  custom:scripting/monoscript/fileName/FrigateHealth.cs: 893e468e3f35edb8064ddf44dcb50f2d -> 64741ea1337a2c8449c1670dc1aa3fa1
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.330 seconds
+- Loaded All Assemblies, in  0.357 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.159 seconds
-Domain Reload Profiling: 1486ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 1625ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (200ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 165 unused Assets / (13.9 MB). Loaded Objects now: 7763.
+Memory consumption went from 287.0 MB to 273.1 MB.
+Total: 11.943100 ms (FindLiveObjects: 0.855100 ms CreateObjectMapping: 0.495000 ms MarkObjects: 7.059400 ms  DeleteObjects: 3.532400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 326993.293238 seconds.
+  path: Assets/SpaceShooty/Prefabs/Laser.prefab
+  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Laser.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bede2deabab252d17905caa97c283246') in 0.002112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SpaceShooty/Prefabs/C01 Cruiser.prefab
+  artifactKey: Guid(98f07bc61f409944fbd3ddc3bb317267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/C01 Cruiser.prefab using Guid(98f07bc61f409944fbd3ddc3bb317267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ae8b22587db9f85046cfc9577009ab9') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SpaceShooty/Prefabs/Shell.prefab
+  artifactKey: Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Shell.prefab using Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c58b84511ce84a91d043d63b102a0792') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SpaceShooty/Prefabs/Player.prefab
+  artifactKey: Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Player.prefab using Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '572fa19663ed210098e354bcd209d4e3') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
+  artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001705 seconds.
+  path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
+  artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab
+  artifactKey: Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab using Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bba66f05005847d9399f145f60a0fee') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.458484 seconds.
+  path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
+  artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SpaceShooty/Prefabs/Shell.prefab
+  artifactKey: Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Shell.prefab using Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c58b84511ce84a91d043d63b102a0792') in 0.000502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.110007 seconds.
+  path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
+  artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SpaceShooty/Prefabs/Laser.prefab
+  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Laser.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b779d386ebd56bb1f9978c873f7ddea7') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.579042 seconds.
+  path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
+  artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SpaceShooty/Prefabs/Laser.prefab
+  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Laser.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44f2079319956e86484f34876e28439f') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.357 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.317 seconds
+Domain Reload Profiling: 1670ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (227ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (16ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (1159ms)
+	FinalizeReload (1317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (389ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7146 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 165 unused Assets / (13.9 MB). Loaded Objects now: 7761.
-Memory consumption went from 286.7 MB to 272.8 MB.
-Total: 7.495000 ms (FindLiveObjects: 0.780200 ms CreateObjectMapping: 0.220000 ms MarkObjects: 3.391600 ms  DeleteObjects: 3.102500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/DestroyerHealth.cs: af2148d38daccb6a6ebc06da04049be4 -> 65a15f30bafbe703e697fb87718d2352
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CruiserHealth.cs: d4396c74acba6e6620f8f0ed1f406c76 -> b805cc496f66499affd34364065b76e2
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/FighterHealth.cs: f49e7b9db47e4bea9d4b57ea31976cbd -> 126baef1d75cab95dd06dc3ec02d89bd
-  custom:scripting/monoscript/fileName/FrigateHealth.cs: 893e468e3f35edb8064ddf44dcb50f2d -> 64741ea1337a2c8449c1670dc1aa3fa1
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1227330.425981 seconds.
-  path: Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab
-  artifactKey: Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab using Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4bba66f05005847d9399f145f60a0fee') in 0.002344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.327 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.171 seconds
-Domain Reload Profiling: 1496ms
-	BeginReloadAssembly (104ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (203ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1171ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (471ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Refreshing native plugins compatible for Editor in 6.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 165 unused Assets / (13.9 MB). Loaded Objects now: 7776.
-Memory consumption went from 286.5 MB to 272.6 MB.
-Total: 9.332500 ms (FindLiveObjects: 1.196900 ms CreateObjectMapping: 0.369400 ms MarkObjects: 4.196700 ms  DeleteObjects: 3.568600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/DestroyerHealth.cs: af2148d38daccb6a6ebc06da04049be4 -> 65a15f30bafbe703e697fb87718d2352
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CruiserHealth.cs: d4396c74acba6e6620f8f0ed1f406c76 -> b805cc496f66499affd34364065b76e2
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/FighterHealth.cs: f49e7b9db47e4bea9d4b57ea31976cbd -> 126baef1d75cab95dd06dc3ec02d89bd
-  custom:scripting/monoscript/fileName/FrigateHealth.cs: 893e468e3f35edb8064ddf44dcb50f2d -> 64741ea1337a2c8449c1670dc1aa3fa1
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 11.363383 seconds.
-  path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
-  artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.015463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 25.113801 seconds.
-  path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
-  artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/SpaceShooty/Prefabs/Projectile.prefab
-  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/Projectile.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1cb7b8f9ba659857c3abb0acf23c3f25') in 0.000394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.228282 seconds.
-  path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
-  artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/SpaceShooty/Prefabs/Projectile.prefab
-  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/Projectile.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1cb7b8f9ba659857c3abb0acf23c3f25') in 0.000360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.324 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.183 seconds
-Domain Reload Profiling: 1504ms
-	BeginReloadAssembly (102ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (205ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1183ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (366ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (377ms)
 			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 8.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7145 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 165 unused Assets / (13.9 MB). Loaded Objects now: 7791.
-Memory consumption went from 286.5 MB to 272.6 MB.
-Total: 7.471200 ms (FindLiveObjects: 0.753800 ms CreateObjectMapping: 0.227000 ms MarkObjects: 3.244900 ms  DeleteObjects: 3.244600 ms)
+Unloading 7147 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 165 unused Assets / (13.9 MB). Loaded Objects now: 7778.
+Memory consumption went from 286.8 MB to 272.9 MB.
+Total: 44.526400 ms (FindLiveObjects: 0.838600 ms CreateObjectMapping: 0.420400 ms MarkObjects: 39.928500 ms  DeleteObjects: 3.337800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/DestroyerHealth.cs: af2148d38daccb6a6ebc06da04049be4 -> 65a15f30bafbe703e697fb87718d2352
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CruiserHealth.cs: d4396c74acba6e6620f8f0ed1f406c76 -> b805cc496f66499affd34364065b76e2
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/FighterHealth.cs: f49e7b9db47e4bea9d4b57ea31976cbd -> 126baef1d75cab95dd06dc3ec02d89bd
-  custom:scripting/monoscript/fileName/FrigateHealth.cs: 893e468e3f35edb8064ddf44dcb50f2d -> 64741ea1337a2c8449c1670dc1aa3fa1
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.447904 seconds.
-  path: Assets/SpaceShooty/Prefabs/Projectile.prefab
+  Time since last request: 7.314741 seconds.
+  path: Assets/SpaceShooty/Prefabs/Laser.prefab
   artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/Projectile.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1cb7b8f9ba659857c3abb0acf23c3f25') in 0.018355 seconds
+Start importing Assets/SpaceShooty/Prefabs/Laser.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44f2079319956e86484f34876e28439f') in 0.015164 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
+  Time since last request: 0.008222 seconds.
   path: Assets/SpaceShooty/Prefabs/C01 Cruiser.prefab
   artifactKey: Guid(98f07bc61f409944fbd3ddc3bb317267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpaceShooty/Prefabs/C01 Cruiser.prefab using Guid(98f07bc61f409944fbd3ddc3bb317267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7ae8b22587db9f85046cfc9577009ab9') in 0.000683 seconds
+ -> (artifact id: '7ae8b22587db9f85046cfc9577009ab9') in 0.000510 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
+  Time since last request: 0.007128 seconds.
+  path: Assets/SpaceShooty/Prefabs/Shell.prefab
+  artifactKey: Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Shell.prefab using Guid(f16c1bfd844216d4cb1a06a260dc5700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c58b84511ce84a91d043d63b102a0792') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003284 seconds.
   path: Assets/SpaceShooty/Prefabs/Player.prefab
   artifactKey: Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpaceShooty/Prefabs/Player.prefab using Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '572fa19663ed210098e354bcd209d4e3') in 0.000682 seconds
+ -> (artifact id: '572fa19663ed210098e354bcd209d4e3') in 0.000684 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
+  Time since last request: 0.000015 seconds.
   path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
   artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000584 seconds
+ -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000627 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -494,25 +484,34 @@ Received Import Request.
   path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
   artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000797 seconds
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000578 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.410135 seconds.
-  path: Assets/SpaceShooty/Prefabs/C04 Fighter.prefab
-  artifactKey: Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/C04 Fighter.prefab using Guid(055ca939edc25f1458030771f44bab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7b570c6d461496dd14b562b17f53841') in 0.000381 seconds
+  Time since last request: 0.000212 seconds.
+  path: Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab
+  artifactKey: Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/D01 Destroyer.prefab using Guid(224bdfc761dc4f647b471ad79019869e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bba66f05005847d9399f145f60a0fee') in 0.000570 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SpaceShooty/Prefabs/Player.prefab
-  artifactKey: Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShooty/Prefabs/Player.prefab using Guid(387c11ba2c00af841967d767957917ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '572fa19663ed210098e354bcd209d4e3') in 0.000482 seconds
+  Time since last request: 4.893970 seconds.
+  path: Assets/SpaceShooty/Prefabs/F04 Frigate.prefab
+  artifactKey: Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/F04 Frigate.prefab using Guid(4f92f9d7e224fa441914f9520de32dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e48b4bb275739412bf0670f7710c8a2a') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SpaceShooty/Prefabs/Laser.prefab
+  artifactKey: Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceShooty/Prefabs/Laser.prefab using Guid(e048453342c61ae4c8f96605c6bf58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44f2079319956e86484f34876e28439f') in 0.000598 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

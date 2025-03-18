@@ -12,7 +12,7 @@ public class Projectile : MonoBehaviour
         SetVelocity();
         SetDestroyTime();
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if ((whatDestroysProjectile.value & (1 << collision.gameObject.layer)) > 0)
         {
@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
             {
                 iDamageable.Damage(projectileDamage);
             }
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
     private void SetVelocity()
@@ -30,6 +30,6 @@ public class Projectile : MonoBehaviour
     }
     private void SetDestroyTime()
     {
-        Destroy(gameObject, destroyTime);
+        Destroy(transform.parent.gameObject, destroyTime);
     }
 }

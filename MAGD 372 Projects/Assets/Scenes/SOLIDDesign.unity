@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyer_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cddb0a201d9ca241966db4aa7881450, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236,6 +240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light cruiser_04
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ac77db17fefbeb438b024ab8b133b42, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -292,6 +300,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b9e1f19de6be8664c81bb7770a775a91, type: 3}
       propertyPath: m_Name
       value: Frigate_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b9e1f19de6be8664c81bb7770a775a91, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -527,6 +539,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a7a67379b5bc16843988ba1605cc108e, type: 3}
       propertyPath: m_Name
       value: Light cruiser_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a7a67379b5bc16843988ba1605cc108e, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -765,16 +781,6 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ceb9e4f3b99d61d47901dd2faae02a68, type: 3}
   m_PrefabInstance: {fileID: 2137266260}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &643167514 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1188423344181369032, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-  m_PrefabInstance: {fileID: 1180298579}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &684635601 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4929333138453827647, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-  m_PrefabInstance: {fileID: 1180298579}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &713728055
 Mesh:
@@ -1137,6 +1143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frigate_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38e34eed4e70fb044aa9a2c388fc47e9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1194,6 +1204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corvette_05
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64b77be4cb289e84587f3b45ac104011, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1250,6 +1264,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b1a4acecf1d4fd24190be40815fc28ad, type: 3}
       propertyPath: m_Name
       value: Corvette_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b1a4acecf1d4fd24190be40815fc28ad, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1313,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frigate_04
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0708da64516231c44bd558ec9a5db0c8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1332,7 +1354,7 @@ GameObject:
   - component: {fileID: 853076180}
   - component: {fileID: 853076179}
   - component: {fileID: 853076178}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9173,11 +9195,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &859864230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8284996756986823976, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-  m_PrefabInstance: {fileID: 1180298579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &896126710 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a7a67379b5bc16843988ba1605cc108e, type: 3}
@@ -9240,6 +9257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light cruiser_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 80345574d9156174c9f462c201f01373, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9301,6 +9322,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 37e0cd257e4fee14ba76ce19f447490d, type: 3}
       propertyPath: m_Name
       value: Destroyer_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37e0cd257e4fee14ba76ce19f447490d, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9522,6 +9547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Light cruiser_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e20ebb83cc80f44094b7c41badddfbc, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9579,6 +9608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destroyer_04
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cea1f611c760ab24aa00dc8d48a14c98, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9635,6 +9668,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 443a2765954e4cb4199ee9bcb2b0734f, type: 3}
       propertyPath: m_Name
       value: Light cruiser_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 443a2765954e4cb4199ee9bcb2b0734f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9701,38 +9738,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4124043460670042834, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1236147802}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 387c11ba2c00af841967d767957917ee, type: 3}
 --- !u!4 &1180298580 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6651214306023077766, guid: 387c11ba2c00af841967d767957917ee, type: 3}
   m_PrefabInstance: {fileID: 1180298579}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1236147797 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4124043460670042834, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-  m_PrefabInstance: {fileID: 1180298579}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1236147802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236147797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72b9c4851ea93c0478a2d5ed5387137a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  armory:
-  - {fileID: 643167514}
-  - {fileID: 2067592303}
-  - {fileID: 859864230}
-  - {fileID: 684635601}
 --- !u!4 &1269717996 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7695bb8118f1f454b938db2c215affbc, type: 3}
@@ -9878,6 +9890,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7695bb8118f1f454b938db2c215affbc, type: 3}
       propertyPath: m_Name
       value: Destroyer_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7695bb8118f1f454b938db2c215affbc, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10263,6 +10279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corvette_01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97edab4e530b4874597a5bdbd8316537, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10324,6 +10344,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65cbe208a3ce1c8469f3568ec97f7c41, type: 3}
       propertyPath: m_Name
       value: Corvette_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65cbe208a3ce1c8469f3568ec97f7c41, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10387,6 +10411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corvette_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a826279adaf25d4da15ed85e47be4eb, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10444,6 +10472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frigate_05
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 742d6db0e9cf9354d9d598786c84d34e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10500,6 +10532,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0d2547157ea98344af70eb24f4b9a10, type: 3}
       propertyPath: m_Name
       value: Frigate_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0d2547157ea98344af70eb24f4b9a10, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10762,11 +10798,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &2067592303 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7938035803413013652, guid: 387c11ba2c00af841967d767957917ee, type: 3}
-  m_PrefabInstance: {fileID: 1180298579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2137266260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10818,6 +10849,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ceb9e4f3b99d61d47901dd2faae02a68, type: 3}
       propertyPath: m_Name
       value: Destroyer_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ceb9e4f3b99d61d47901dd2faae02a68, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
