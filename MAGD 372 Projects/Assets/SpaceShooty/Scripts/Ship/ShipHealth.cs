@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ public abstract class ShipHealth : MonoBehaviour, IDamageable
     [SerializeField] protected float maxHealth;
     [SerializeField] private bool VanishAtFull;
     [SerializeField] private Image healthBar;
+    [SerializeField] private TextMeshProUGUI healthText;
     public ShipHealth(float maxHealth)
     {
         PlayerHealth = maxHealth;
@@ -32,6 +34,7 @@ public abstract class ShipHealth : MonoBehaviour, IDamageable
     void Update()
     {
         healthBar.fillAmount = health / maxHealth;
+        healthText.text = health + "/" + maxHealth;
         if (VanishAtFull)
         {
             if (health / maxHealth > 0)
